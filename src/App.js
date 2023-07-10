@@ -28,6 +28,7 @@ const App = () => {
   console.log(term,'=term');
   return (
     <div className="container mx-auto">
+      <h1 className="text-3xl md:text-6xl text-center">Image Gallery</h1>
       <ImageSearch handleSearch={handleSearch} />
       {
         isLoading? <h1 className="text-6xl text-center mx-auto mt-32">Loading.....</h1>: <div className="grid md:grid-cols-3 justify-center gap-4">
